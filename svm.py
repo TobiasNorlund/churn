@@ -39,7 +39,9 @@ score = custom_scorer(Y_test, Y_pred)
 
 ## Conclusions:
 #
-# 
+# prec: 0.714285714286
+# rec: 0.111607142857
+# f1: 0.19305019305
 #
 # By L1 regularize feature specific weights, we achieve a feature selection since the weights of some features turn to zero. By inspecting 
 # lsvc.coef_ we can see that International_plan and "Number of service calls" seem most significant. However, with only a f1 score of 0.19,
