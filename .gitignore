@@ -1,3 +1,9 @@
+__MACOSX/
+*.pyproj
+*.pyproj.user
+*.sln
+*.v12.suo
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
